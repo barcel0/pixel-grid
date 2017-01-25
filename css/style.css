@@ -1,0 +1,27 @@
+body{
+  margin:0;
+}
+h1{
+   text-align:center;
+}
+.grid{
+  position:fixed;
+  top:100px;
+  left:50%;
+  transform: translate(-50%, 0);
+}
+.gridRow{
+   display:inline-block;
+}
+
+.pixel{
+  display:block;
+  background-color:#aaa;
+  margin:1px;
+  width:36px;
+  height:36px;
+}
+
+.pixelHovered{
+  background-color:#000;
+}
