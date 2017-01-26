@@ -10,10 +10,12 @@ $(document).ready(function(){
    }
    
    
-   
+  
    $('.pixel').mouseenter(function(){
-      $(this).addClass('pixelHovered');
+      var bgColor = '#'+(Math.random()*0xFFFFFF<<0).toString(16);
+      $(this).css('background-color', bgColor);
+      //$(this).addClass('pixelHovered');
    });
    
-   
+
 });
